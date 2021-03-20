@@ -24,7 +24,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap-sass', '3.4.1'
 # Use Active Storage variant
 gem 'image_processing', '~> 1.2'
-
+gem 'rails-controller-testing', '1.0.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
@@ -50,7 +50,7 @@ group :test do
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
   gem 'guard', '2.16.2'
-  gem 'rails-controller-testing', '1.0.5'
+  
   gem 'guard-minitest', '2.4.6'
 end
 
